@@ -1,16 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="ContactsApp">
 <head>
     <meta charset="UTF-8">
     <title>ContactBook</title>
     <base href='/'>
+    <link rel="stylesheet" href="src/bootstrap.css">
 </head>
 
 <body>
     <div class="container">
         <div class="page-header">
-            <h1> Contacts </h1>
+            <h1> Contacts: {{message}} </h1>
         </div>
     </div>
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="src/app.js"></script>
 </body>
 </html>
