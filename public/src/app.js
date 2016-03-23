@@ -5,7 +5,7 @@ angular.module('ContactsApp',['ngRoute', 'ngResource', 'ngMessages'])
                controller: 'ListController',
                templateUrl: 'views/list.html'
            })
-            .when('/contacts/new',{
+            .when('/contact/new',{
                 controller: 'NewController',
                 templateUrl: 'views/new.html'
             });
