@@ -35,7 +35,7 @@ angular.module('ContactsApp')
             if ($scope.newContact.$invalid) {
                 $scope.$broadcast('record:invalid');
             } else {
-                $scope.contact.$save()
+                $scope.contact.$save();
                 $location.url('/contacts');
             }
         };
